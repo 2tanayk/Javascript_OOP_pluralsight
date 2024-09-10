@@ -1,7 +1,7 @@
 console.log("Prototypes in JS!");
 //Javascript prototypes
 
-//multiple levels of inheritance using prototype chains
+// multiple levels of inheritance using prototype chains
 // we are forming a prototype chain
 // Object --> Person --> Student --> jim
 
@@ -17,16 +17,16 @@ let Person = {
 };
 
 let Student = {
-    enrolledCourses: [],
-    enroll(course) {
-        this.enrolledCourses.push(course)
-    }
-}
+  enrolledCourses: [],
+  enroll(course) {
+    this.enrolledCourses.push(course);
+  },
+};
 
-Object.setPrototypeOf(Student, Person)
+Object.setPrototypeOf(Student, Person);
 
 // inheriting object
-//inherits all properties from Person, but can be overwritten
+// inherits all properties from Person, but can be overwritten
 let jim = {
   firstName: "Jim",
 };
@@ -40,7 +40,7 @@ console.log("Jim", jim);
 
 console.log(Object.getPrototypeOf(jim));
 
-//or
+// or
 
 // deprecated
 console.log(jim.__proto__);
@@ -48,5 +48,3 @@ console.log(jim.__proto__);
 // to check if property belongs to it or its prototype
 // false here
 console.log(jim.hasOwnProperty("age"));
-
-

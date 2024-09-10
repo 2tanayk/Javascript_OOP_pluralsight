@@ -2,7 +2,7 @@ console.log("Constructor functions in JS!");
 
 // Javascript constructor functions
 
-//much easier way to create objects
+// much easier way to create objects
 function Person(firstName, lastName, age) {
   this.firstName = firstName;
   this.lastName = lastName;

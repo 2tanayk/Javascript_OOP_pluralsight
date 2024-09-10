@@ -42,7 +42,7 @@ class Student extends Person {
 }
 
 // parent class constructor automatically gets called if none provided
-let jim = new Student("Jim", "Cooper", 29);
+let jim = new Student("Jim", "Cooper", 29, ["DBMS", "OS"]);
 console.log(jim.firstName);
 
 //both true

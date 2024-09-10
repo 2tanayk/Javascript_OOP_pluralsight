@@ -61,7 +61,6 @@ console.log(jim.constructor.toString());
 console.log(jim instanceof Student);
 console.log(jim instanceof Person);
 
-
 //polymorphism in javascript
 
 // since javascript is a loosely typed language
