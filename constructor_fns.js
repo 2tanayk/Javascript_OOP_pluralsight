@@ -84,7 +84,7 @@ AnotherPerson.adultAge = 18;
 
 // this method can't access instance (this)
 AnotherPerson.isAdult = function (age) {
-  return age >= Person.adultAge;
+  return age >= AnotherPerson.adultAge;
 };
 
 // belongs to the constructor function

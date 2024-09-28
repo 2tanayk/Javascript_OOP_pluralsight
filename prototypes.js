@@ -1,5 +1,5 @@
 console.log("Prototypes in JS!");
-//Javascript prototypes
+// Javascript prototypes
 
 // multiple levels of inheritance using prototype chains
 // we are forming a prototype chain
